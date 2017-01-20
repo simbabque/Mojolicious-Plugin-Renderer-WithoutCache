@@ -14,14 +14,14 @@ Version 0.00_01
 our $VERSION = '0.00_01';
 $VERSION = eval $VERSION;
 
-=SYNOPSIS
+=head1 SYNOPSIS
 
 You probably don't want to use this directly.
 
     my $cache = Mojolicious::Plugin::Renderer::WithoutCache::Cache->new;
     # this cache does nothing
 
-=DESCRIPTION
+=head1 DESCRIPTION
 
 A cache object that's compatible to Mojo::Cache but does nothing. It does
 not save or return any values. It's always empty.
@@ -36,7 +36,7 @@ Does nothing. Returns C<undef>.
 
 sub get {}
 
-=head set
+=head2 set
 
 Does nothing. Returns C<$self> so chaining is possible.
 
@@ -44,7 +44,7 @@ Does nothing. Returns C<$self> so chaining is possible.
 
 sub set { shift; }
 
-=head max_keys
+=head2 max_keys
 
 Always returns zero. Can't be set. We don't want any keys.
 
