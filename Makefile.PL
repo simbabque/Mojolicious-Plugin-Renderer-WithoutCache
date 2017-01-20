@@ -10,10 +10,7 @@ WriteMakefile(
     ABSTRACT_FROM      => 'lib/Mojolicious/Plugin/Renderer/WithoutCache.pm',
     LICENSE            => 'artistic_2',
     PL_FILES           => {},
-    MIN_PERL_VERSION   => 5.006,
-    CONFIGURE_REQUIRES => {
-        'ExtUtils::MakeMaker' => 0,
-    },
+    MIN_PERL_VERSION   => 5.010001,
     BUILD_REQUIRES => {
         'Test::More' => 0,
     },
