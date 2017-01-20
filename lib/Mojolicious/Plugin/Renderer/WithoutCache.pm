@@ -31,7 +31,7 @@ to C<0> if you plan to do a lot of uncached requests, becase L<Mojolicious::Rend
 will still try to cache, and every time L<Mojo::Cache> sets a value in the cache it
 looks at the C<max_keys>, and then stops.
 
-Doing nothing at all is cheaper.
+Doing nothing at all is cheaper. But not a lot really.
 
 =head1 METHODS
 
