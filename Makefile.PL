@@ -15,7 +15,7 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Mojolicious' => 0,
+        'Mojolicious' => 5.029,
         'Test::Mojo'  => 0,
     },
     dist     => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
