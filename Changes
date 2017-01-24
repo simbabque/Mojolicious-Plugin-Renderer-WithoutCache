@@ -1,5 +1,7 @@
 Revision history for Mojolicious-Plugin-Renderer-WithoutCache
 
+0.02    25 Jan 2017
+        Require Mojolicious 5.29
 0.01    20 Jan 2017
         First developer release.
 
