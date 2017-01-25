@@ -8,11 +8,11 @@ Mojolicious::Plugin::Renderer::WithoutCache - Disable the template cache in your
 
 =head1 VERSION
 
-Version 0.01
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 $VERSION = eval $VERSION;
 
 =head1 SYNOPSIS
