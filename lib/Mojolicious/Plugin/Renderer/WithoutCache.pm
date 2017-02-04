@@ -6,6 +6,15 @@ use Mojolicious::Plugin::Renderer::WithoutCache::Cache;
 
 Mojolicious::Plugin::Renderer::WithoutCache - Disable the template cache in your Mojo app
 
+=begin html
+
+<p>
+<a href="https://travis-ci.org/simbabque/Mojolicious-Plugin-Renderer-WithoutCache"><img src="https://travis-ci.org/simbabque/Mojolicious-Plugin-Renderer-WithoutCache.svg?branch=master"></a>
+<a href='https://coveralls.io/github/simbabque/Mojolicious-Plugin-Renderer-WithoutCache?branch=master'><img src='https://coveralls.io/repos/github/simbabque/Mojolicious-Plugin-Renderer-WithoutCache/badge.svg?branch=master' alt='Coverage Status' /></a>
+</p>
+
+=end html
+
 =head1 VERSION
 
 Version 0.03
