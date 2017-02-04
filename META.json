@@ -65,7 +65,7 @@
          "web" : "https://github.com/simbabque/Mojolicious-Plugin-Renderer-WithoutCache"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:SIMBABQUE",
    "x_contributors" : [
       "simbabque <simbabque@cpan.org>"

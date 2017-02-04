@@ -12,7 +12,7 @@ Mojolicious::Plugin::Renderer::WithoutCache - Disable the template cache in your
 
 # VERSION
 
-Version 0.03
+Version 0.04
 
 # SYNOPSIS
 
