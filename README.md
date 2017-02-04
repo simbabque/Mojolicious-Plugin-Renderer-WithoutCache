@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/simbabque/Mojolicious-Plugin-Renderer-WithoutCache.svg?branch=master)](https://travis-ci.org/simbabque/Mojolicious-Plugin-Renderer-WithoutCache) [![Coverage Status](https://img.shields.io/coveralls/simbabque/Mojolicious-Plugin-Renderer-WithoutCache/master.svg?style=flat)](https://coveralls.io/r/simbabque/Mojolicious-Plugin-Renderer-WithoutCache?branch=master)
 # NAME
 
 Mojolicious::Plugin::Renderer::WithoutCache - Disable the template cache in your Mojo app
