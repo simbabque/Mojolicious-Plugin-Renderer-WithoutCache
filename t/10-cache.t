@@ -12,4 +12,7 @@ is_deeply $cache->set( foo => 'bar' ), $cache, 'Chaining works';
 is $cache->get('foo'), undef, 'Cache returns undef for previously set value';
 is $cache->get('bar'), undef, 'Cache returns undef for unset value';
 
+is $cache->max_keys, 0, 'max_keys is zero';
+is $cache->max_keys(5), 0, '... and does not care about being set higher';
+
 done_testing;
