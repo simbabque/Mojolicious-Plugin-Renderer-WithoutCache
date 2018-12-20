@@ -35,7 +35,7 @@ This plugin turns off the renderer's cache in L<Mojolicious> and L<Mojo::Lite> a
 
 This does what it says on the box. It turns off caching for the L<Mojolicious::Renderer>
 or any other renderer that's inside C<$app-E<gt>renderer> by injecting a cache object that
-does not do anything. This is supperior to setting the C<max_keys> of L<Mojo::Cache>
+does not do anything. This is superior to setting the C<max_keys> of L<Mojo::Cache>
 to C<0> if you plan to do a lot of uncached requests, becase L<Mojolicious::Renderer>
 will still try to cache, and every time L<Mojo::Cache> sets a value in the cache it
 looks at the C<max_keys>, and then stops.
